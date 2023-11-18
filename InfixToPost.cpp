@@ -7,6 +7,6 @@ int main() {
   isBalanced(expression);
   if(isBalanced(expression)){
     cout << "\nYour expression in postfix: ";
-    infixToPostfix(expression);
+    cout << infixToPostfix(expression);
   }
 }
